@@ -43,7 +43,7 @@ public static String loaddata(String key) throws IOException
 			//or
 			/* through properties file */
 			
-			System.setProperty("webdriver.chrome.driver", loaddata("chrome_exe"));
+			System.setProperty("webdriver.chrome.driver", loaddata("chromeexe"));
 			driver = new ChromeDriver();
 			
 		}
