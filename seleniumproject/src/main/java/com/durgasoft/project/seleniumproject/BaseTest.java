@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -18,8 +19,6 @@ public class BaseTest
 	public static Properties prop;
 	public static WebElement e;
 	
-	
-	   
 	
 /*public static String loaddata(String key) throws IOException
 	
@@ -63,6 +62,10 @@ public class BaseTest
 			driver = new ChromeDriver();
 			
 		}
+		
+		
+		String log4jConfPath = "log4j.properties";
+		PropertyConfigurator.configure(log4jConfPath);
 		
 	}
 	public static void navigate(String url)

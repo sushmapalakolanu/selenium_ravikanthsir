@@ -1,0 +1,10 @@
+Selected the browser :Chrome
+Navigated to the URL :http://www.amazon.in
+Searched sony by using the locator :twotabsearchtextbox
+Clicked on search button by using locator ://input[@value='Go']
+=========== Ended TC_003 ===============
+Selected the browser :Chrome
+Navigated to the URL :http://www.amazon.in
+Searched sony by using the locator :twotabsearchtextbox
+Clicked on search button by using locator ://input[@value='Go']
+=========== Ended TC_003 ===============

@@ -12,7 +12,8 @@ public class TC_001 extends BaseTest {
 	  navigate("http://www.amazon.in");
 	  search("twotabsearchtextbox","sony");
 	clickOnElement("//input[@value='Go']");
-	    }
+	
+  }
 
 
 }
